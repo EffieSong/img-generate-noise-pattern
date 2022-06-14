@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>番茄畅听</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+
+<body>
+  <div class="device">
+    <div class="app">
+      <canvas id="glsl-canvas" width="1125" height="2436"></canvas>
+      <img class="ui" src="./imgs/ui.png">
+      <div id="ui-cover">
+        <input id="image-loader" type="file">
+        <canvas id="pre-canvas" width="512" height="512"></canvas>
+      </div>
+    </div>
+    <img class="device-frame" src="./imgs/iphonex.png">
+  </div>
+
+  <script src="js/glslCanvas.js"></script>
+  <script src='js/jquery-2.1.0.min.js'></script>
+  <script src='js/dat.gui.min.js'></script>
+  <script src="js/stackblur.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
