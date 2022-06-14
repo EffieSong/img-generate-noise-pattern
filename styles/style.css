@@ -6,7 +6,7 @@ html,body{
 
 body {
   position: relative;
-  background-color: #1b232f00;
+  background-color: #35353500;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,13 +16,14 @@ body {
   position: absolute;
   width: 431px;
   height: 862px;
-  transform: scale(0.75);
+  transform: scale(1);
 }
 
 .device-frame {
   position: absolute;
   width: 431px;
   height: 862px;
+
 }
 
 .app {
@@ -32,6 +33,8 @@ body {
   width: 375px;
   height: 812px;
   overflow: hidden;
+  border-radius: 40px;
+  border: 5px solid black;
 }
 
 .ui{

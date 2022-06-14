@@ -210,15 +210,15 @@ var chooseImage = {
 };
 
 const gui = new dat.GUI({ autoPlace: true, width: 300 });
-gui.close();
-gui0 = gui.add(options, "blur", 0, 150).step(1).name("模糊");
-gui1 = gui.add(options, "noise_factor", 0, 500).step(0.5).name("噪音系数");
-gui2 = gui.add(options, "noise_displacement", 0, 1).step(0.01).name("噪音置换");
-gui3 = gui.add(options, "x_offset", -1, 1).step(0.01).name("材质偏移_x");
-gui4 = gui.add(options, "y_offset", -1, 1).step(0.01).name("材质偏移_y");
-gui5 = gui.add(options, "sample_scale", 0, 2).step(0.01).name("缩放比例");
-gui6 = gui.add(options, "flow_speed", 0, 1).step(0.01).name("流动速度");
-gui7 = gui.add(options, "saturation", 0, 4).step(0.01).name("饱和度");
+// gui.close();
+gui0 = gui.add(options, "blur", 0, 150).step(1).name("blur");
+gui1 = gui.add(options, "noise_factor", 0, 500).step(0.5).name("noise_factor");
+gui2 = gui.add(options, "noise_displacement", 0, 1).step(0.01).name("noise_displacement");
+gui3 = gui.add(options, "x_offset", -1, 1).step(0.01).name("x_offset");
+gui4 = gui.add(options, "y_offset", -1, 1).step(0.01).name("y_offset");
+gui5 = gui.add(options, "sample_scale", 0, 2).step(0.01).name("sample_scale");
+gui6 = gui.add(options, "flow_speed", 0, 1).step(0.01).name("flow_speed");
+gui7 = gui.add(options, "saturation", 0, 4).step(0.01).name("saturation");
 
 
 var guiN = [gui0, gui1, gui2, gui3, gui4, gui5, gui6, gui7];
