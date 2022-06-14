@@ -16,7 +16,7 @@ body {
   position: absolute;
   width: 431px;
   height: 862px;
-  transform: scale(1);
+  transform: scale(0.8);
 }
 
 .device-frame {
